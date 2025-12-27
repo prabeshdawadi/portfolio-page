@@ -145,7 +145,7 @@ button{
 
 .about {
     text-align: center;
-    padding: 90px 90px;
+    padding: 0;
     background-color: rgb(166, 159, 159);
 }
 .about p{
