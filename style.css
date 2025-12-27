@@ -145,15 +145,15 @@ button{
 
 .about {
     text-align: center;
-    padding: 40px 20px;
+    padding: 90px 90px;
     background-color: rgb(166, 159, 159);
 }
 .about p{
-    font-size: 18px;
+    font-size: 30px;
 }
 .about h2{
-    font-size: 35px;
-    padding: 20px 0;
+    font-size: 60px;
+    padding: 60px;
     text-decoration: none;
     font-weight: 600;
     background-image: linear-gradient(to left, blueviolet, #b393d3);
@@ -169,7 +169,7 @@ button{
 }
 .about ul li {
     align-items: left;
-    font-size: 10px;
+    font-size: 30px;
     margin: 8px 0;
 }
 
@@ -397,4 +397,24 @@ footer{
         width: 90%;
         text-align: center;
     }
+    .about {
+        padding: 40px 20px;
+    }
+
+    .about h2 {
+        font-size: 35px;
+        padding: 20px 0;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .about ul li {
+        font-size: 18px;
+    }
 }
+
+
+
+
