@@ -101,6 +101,9 @@ nav a:hover{
     padding-top: 30px;
 }
 
+.home-text{
+    flex: 1;
+}
 
 .home-text h1{
     font-size: 60px;
@@ -115,11 +118,12 @@ nav a:hover{
 }
 .home-image img{
     margin-top: 0;
-    height: 350px;
-    max-width: 80%;
-    object-fit: cover;
-    border: 7px, solid, blueviolet;
+    width: 100%;
+    max-width: 350px;
     height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 7px solid blueviolet;
     border-radius: 50%;
 }
 
@@ -351,12 +355,20 @@ footer{
     }
     
     .home{
-        display: flex;
-        align-items: center;
+        flex-direction: column-reverse;
         justify-content: space-between;
-        padding: 30px 50px;
+        padding: 50px 20px;
         background-color: rgb(205, 196, 196);
-        min-height: 80vh;
+        text-align: center;
+    }
+    .home-text p{
+        font-size: 20px;
+    }
+
+    .home-image img{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
     }
 
     .home-text{
