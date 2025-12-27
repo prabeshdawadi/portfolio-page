@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabesh Dawadi | Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="/public/favicon-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h2 id="logo"> <span class="first">Prabesh </span><span class="last">Dawadi</span> </h2>
+        <nav id="nav-bar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="menu" id="menu">&#9776;</div>
+    </header>
+        <div class="home" id="home">
+
+            <!-- text.left -->
+             <div class="home-text">
+                <h1>Hello, I'm a <span>Developer.</span> </h1>
+                <p>I am a intermdiate web developer and python developer building real world projects, hosting and learning continiously.</p>
+                <a href="/public/smth.pdf">
+                    <button >Hire Me!!</button>
+                </a>
+             </div>
+            <!-- photo -->
+             <div class="home-image">
+                <img src="/public/prabesh-dawadi.jpg" alt="picture of me">
+             </div>
+        </div> 
+
+             <div class="about" id="about">
+                <h2>About Me</h2>
+                <p>I am a website developer having skills in <span>HTML, CSS, JS </span>and <span>Python</span> having specilaizing in <span> API and NumPy</span>.</p>
+                <br>
+                <p><strong>My Skills:</strong>
+                </p>
+                <ul>
+                    <li><i class="fa-brands fa-html5"></i>HTML</li>
+                    <li><i class="fa-brands fa-css"></i>CSS</li>
+                    <li><i class="fa-brands fa-js"></i>JavaScript</li>
+                    <li><i class="fa-brands fa-github"></i>GitHub</li>
+                    <li><i class="fa-brands fa-python"></i>Python</li>
+                </ul>
+             </div>
+
+             <div class="services" id="services">
+                <h2>My Services</h2>
+                <div id="service" class="service">
+
+                    <div class="service-card">
+                        <i class="fa-solid fa-globe fa-5x"></i><br><br>
+                        <h3>Website Development</h3>
+
+                        <p>I build websites using HTML CSS and JS along with Python Specilaiztion.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <i class="fa-solid fa-server fa-5x"></i><br><br>
+                        <h3>Hosting</h3>
+                        <p>I can host your wesites from Github for free.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fa-brands fa-python fa-5x"></i><br><br>
+                        <h3>Python</h3>
+                        <p>I am a proficient programmer in Python having Specilaiztion in NumPy and FastAPI.</p>
+                    </div>
+                </div>
+
+             </div>
+
+
+             <div class="contact" id="contact">
+                <h2>Contact Me</h2>
+
+                <form onsubmit="return validate()" class="form">
+                    <input type="text" id="name" class="input" placeholder="Username"><br><br>
+
+                    <input type="email" class="email" id="email" placeholder="E-mail"> <br><br>
+                    <input type="submit" class="submit-btn" value="Submit">
+                </form>
+                <h2 style="font-size: 30px; color: blueviolet; text-decoration: none;">Get In Touch</h2>
+                <div class="contact-links">
+                    <a href="https://instagram.com/prabesh.dawadi" target="_blank" class="contact-item instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>prabesh.dawadi</span>
+                    </a>
+                    <a href="https://github.com/123prabesh" target="_blank" class="contact-item github">
+                        <i class="fa-brands fa-github"></i>
+                        <span>123prabesh</span>
+                    </a>
+                </div>
+             </div>
+
+        <footer>
+            <p>&copy; 2026 | prabeshdawadi</p>
+        </footer>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
